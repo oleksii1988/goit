@@ -20,7 +20,8 @@ public static void inputOutput(){
 }
 
     public static void main(String[] args) {
-        Module3Task2.inputOutput();
+
+    Module3Task2.inputOutput();
     }
 
 }

@@ -3,7 +3,8 @@ package com.company;
 import java.util.Scanner;
 
 public class Module3Task3 {
-Module3Task3 keyboard = new Module3Task3();
+
+    Module3Task3 keyboard = new Module3Task3();
 public static Scanner scanner = new Scanner(System.in);
 
 public static void testLogicalOperators(){
@@ -17,10 +18,12 @@ public static void testLogicalOperators(){
     scanner.close();
 
 
+
 }
 
     public static void main(String[] args) {
         Module3Task3.testLogicalOperators();
-    }
+
+}
 
 }
