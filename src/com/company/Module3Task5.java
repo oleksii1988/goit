@@ -16,6 +16,10 @@ public class Module3Task5 {
 
     }
 
+
+
+
+
     public static void sout() {
 
         System.out.println(Arrays.toString(Module3Task5.createEmptyNameArray()));

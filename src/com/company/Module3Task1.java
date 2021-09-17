@@ -3,6 +3,7 @@ package com.company;
 import java.util.Scanner;
 
 public class Module3Task1 {
+
     Module3Task1 keyboard = new Module3Task1();
     public static Scanner scanner = new Scanner(System.in);
 
@@ -22,6 +23,7 @@ public class Module3Task1 {
     public static void main(String[] args) {
 
     Module3Task1.inputOutput();
+
 
     }
 
