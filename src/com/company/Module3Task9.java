@@ -6,6 +6,18 @@ public class Module3Task9 {
 
 
 
+    public static  String [] changeElector(String[] results){
+
+     String x = results[0];
+     results[0] = results [results.length -1];
+     results[results.length -1] = x;
+
+     return results;
+
+    }
+
+
+
 
 
     public static void main(String[] args) {
@@ -16,13 +28,10 @@ public class Module3Task9 {
         array[2]= "Grisha";
         array[3]= "Bogdan";
         array[4]= "Vova";
-        String x = array[0];
-        array [0] = array[array.length -1];
-        array  [array.length -1] = x;
 
 
 
-        System.out.println(Arrays.toString(array));
+        System.out.println(Arrays.toString(changeElector(array)));
 
 
     }
