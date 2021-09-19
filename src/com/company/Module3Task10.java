@@ -26,5 +26,6 @@ public class Module3Task10 {
         System.out.println(Arrays.toString(changeElectResultAgain(array)));
 
 
+
     }
 }
